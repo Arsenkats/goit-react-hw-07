@@ -1,0 +1,35 @@
+.contactContainer{
+   display: flex;
+   border: 2px solid black;
+   border-radius: 10px;
+   padding: 10px;
+   justify-content: space-between;
+}
+
+.personalInfo{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-weight: 500;
+    font-size: 18px;
+    color: black;
+}
+
+.icons{
+    margin-right: 10px;
+    color: black;
+}
+
+.deleteButton{
+    outline: none;
+    transition: all 300ms ease-in;
+}
+
+.deleteButton:hover,
+.deleteButton:focus {
+    border: none;
+    outline: none;
+    background-color: red;
+    color: white;
+}
+
